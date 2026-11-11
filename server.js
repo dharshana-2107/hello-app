@@ -2,7 +2,7 @@
 const http = require("http");
 
 const port = process.env.PORT || 3000;
-const greeting = process.env.GREETING || "Hello from Launchpad!";
+const greeting = process.env.GREETING || "Deployed by git push!";
 
 http
   .createServer((req, res) => {
